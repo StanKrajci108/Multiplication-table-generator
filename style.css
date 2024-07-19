@@ -9,7 +9,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
   background-color: #a0c5c9;
 }
 
@@ -53,8 +53,9 @@ button:hover {
   background-color: #3492a0;
 }
 
-#tableContainer {
-  margin-top: 20px;
+#tableContainer,
+input {
+  margin-top: 0.8rem;
 }
 
 table {
