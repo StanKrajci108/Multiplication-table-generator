@@ -53,11 +53,6 @@ button:hover {
   background-color: #3492a0;
 }
 
-#tableContainer,
-input {
-  margin-top: 0.8rem;
-}
-
 table {
   width: 100%;
   border-collapse: separate;

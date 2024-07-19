@@ -14,11 +14,15 @@ function generateTable() {
     const cell1 = row.insertCell(0);
     const cell2 = row.insertCell(1);
     const cell3 = row.insertCell(2);
+    const cell4 = row.insertCell(3);
     cell1.textContent = number;
     cell2.textContent = "x";
     cell3.textContent = i;
-    const cell4 = row.insertCell(3);
-    cell4.textContent = number * i;
+    cell4.textContent = "=";
+    const cell5 = row.insertCell(4);
+    cell5.textContent = number * i;
   }
   tableContainer.appendChild(table);
+
+  tableContainer.style.marginTop = "1rem";
 }
